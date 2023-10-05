@@ -23,15 +23,15 @@ try {
 
 // CORS when consuming Medusa from admin
 const ADMIN_CORS =
-  process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001";
+  process.env.ADMIN_CORS || "https://ossecom-production.up.railway.app/";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
+const STORE_CORS = process.env.STORE_CORS || "https://ossecom-storefront.vercel.app/";
 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "postgres://localhost/medusa-store";
+  process.env.DATABASE_URL || "postgresql://postgres:thisisastrongerpassword@db.usxvcsuggtmbgazmrvyu.supabase.co:5432/postgres";
 
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://default:I0ej7M2S1da6TouG2N40@containers-us-west-41.railway.app:5822";
 
 const plugins = [
   `medusa-fulfillment-manual`,
