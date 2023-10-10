@@ -29,7 +29,7 @@ const ADMIN_CORS =
 const STORE_CORS = process.env.STORE_CORS || "https://ossecom-storefront.vercel.app/";
 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "postgresql://postgres:thisisastrongerpassword@db.usxvcsuggtmbgazmrvyu.supabase.co:5432/postgres";
+  process.env.DATABASE_URL || "postgresql://postgres:MI0HnFGxtoKtFMGWUHTH@containers-us-west-88.railway.app:6662/railway";
 
 const REDIS_URL = process.env.REDIS_URL || "redis://default:I0ej7M2S1da6TouG2N40@containers-us-west-41.railway.app:5822";
 
